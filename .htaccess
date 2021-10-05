@@ -1,4 +1,4 @@
 # Redirect traffic to your port 3000
 RewriteEngine On
 RewriteBase /
-RewriteRule ^(.*)?$ http://127.0.0.1:8081/$1 [P,L]
+RewriteRule ^(.*)?$ http://127.0.0.1:8080/$1 [P,L]
